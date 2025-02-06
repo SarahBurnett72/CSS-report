@@ -49,8 +49,8 @@ with tab2:
     st.header("Pandas")
     
     st.write("""
-             Pandas is a tool for efficient data analysis in python. Data is stored in tables called dataframes. The rows are indexed and the 
-             columns have labels, which allows you to reference specific data to filter, sort and manipulate your data.  
+             Pandas is a tool for efficient data analysis in Python. Data is stored in tables called dataframes. The rows are indexed and the 
+             columns have labels, which allow you to reference specific data to filter, sort and manipulate your data.  
              Some introductory tutorials can be found here: https://pandas.pydata.org/docs/getting_started/intro_tutorials/index.html.
              """)
     st.subheader("Examples")
