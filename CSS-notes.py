@@ -48,7 +48,7 @@ with tab1:
              """)
              
     st.header("Libraries that were used")
-    st.markdown(""""
+    st.markdown("""
                 - pandas (pd) allows for easy data manipulation and processing for table-style data
                 - seaborn (sns) plots statistical plots like heatmaps
                 - os interacts with operating system
