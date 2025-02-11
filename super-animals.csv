@@ -1,0 +1,109 @@
+Number,Animal,Category,Species,Age,Weight,Size,Speed,Vulnerability,Updated
+1,White headed vulture,Savanna,Bird,20,4.70,85,48,1,No
+2,Secretarybird,Savanna,Bird,12,4,152,65,2,Yes
+3,Kudu,Savanna,Mammal,15,227,240,70,4,Yes
+4,Blue wildebeest,Savanna,Mammal,20,250,240,80,4,No
+5,Giraffe,Savanna,Mammal,25,828,505,56,4,No
+6,Impala,Savanna,Mammal,20,54,162,80,4,No
+7,Black rhinoceros,Savanna,Mammal,50,1000,380,55,1,No
+8,African lion,Savanna,Mammal,25,190,250,80,2,Yes
+9,Dung beetle,Savanna,Insect,3,0.02,3,30,4,Yes
+10,Lilac breasted roller,Savanna,Bird,15,0.10,38,54,4,No
+11,Plains (Burchell's) Zebra,Savanna,Mammal,30,313,260,56,3,Yes
+12,African leopard,Savanna,Mammal,15,60,211,58,2,No
+13,Hippopotamus,Wetland,Mammal,50,1800,390,30,2,Yes
+14,African jacana,Wetland,Bird,6.5,0.14,32,80,4,Yes
+15,Greater flamingo,Wetland,Bird,30,3.5,150,50,4,Yes
+16,Blue crane,Wetland,Bird,30,5.09,120,40,2,Yes
+17,Waterbuck,Wetland,Mammal,18,270,235,25,4,Yes
+18,Giant kingfisher,Wetland,Bird,10,0.375,46,40,4,Yes
+19,Nile crocodile,Wetland,Reptile,70,500,600,35,3,Yes
+20,Southern bald ibis,Wetland,Bird,15,1.1,80,35,2,Yes
+21,African fish eagle,Wetland,Bird,24,2.5,75,80,4,Yes
+22,Buffalo,Wetland,Mammal,20,800,340,55,4,No
+23,Brown hooded kingfisher,Wetland,Bird,20,0.58,23,17,4,No
+24,Yellow-billed duck,Wetland,Bird,30,0.9,59,50,4,Yes
+25,Crested barbet,Thicket,Bird,10,0.07,24,40,4,Yes
+26,Bushbuck,Thicket,Mammal,12,40,150,60,4,No
+27,Rock kestrel,Thicket,Bird,15,0.23,39,65,4,Yes
+28,Southern carmine bee-eater,Thicket,Bird,7,0.60,35,42,4,Yes
+29,Pale chanting goshwak,Thicket,Bird,19,0.9,60,60,4,Yes
+30,Mountain reedbuck,Thicket,Mammal,14,30,136,50,4,No
+31,Elephant,Thicket,Mammal,70,6000,700,40,2,No
+32,Hottentot golden mole,Thicket,Mammal,10,0.025,10,5,1,Yes
+33,Orange breasted sunbird,Thicket,Bird,3.6,0.11,17,50,4,No
+34,Cape eagle-owl,Thicket,Bird,10,1.80,61,80,4,No
+35,Crowned eagle,Thicket,Bird,15,3.6,90,160,3,Yes
+36,Hadeda ibis,Thicket,Bird,20,1.20,89,78,4,Yes
+37,Warthog,Nama Karoo,Mammal,18,79,150,50,4,No
+38,Porcupine,Nama Karoo,Mammal,15,18,84,3,4,No
+39,Helmeted guineafowl,Nama Karoo,Bird,15,1.5,58,35,4,Yes
+40,Puff adder,Nama Karoo,Reptile,16,6,120,5,4,Yes
+41,Steenbok,Nama Karoo,Mammal,12,11,95,45,4,Yes
+42,Brown hyena,Nama Karoo,Mammal,12,50,140,50,3,Yes
+43,Springbok,Nama Karoo,Mammal,9,41,150,88,4,No
+44,Black mamba,Nama Karoo,Reptile,11,1.60,430,20,4,No
+45,Black-backed jackal,Nama Karoo,Mammal,15,8,100,32,4,No
+46,Suricate (meerkat),Nama Karoo,Mammal,14,0.75,35,32,4,Yes
+47,Aardwolf,Nama Karoo,Mammal,12,8.91,92,40,4,No
+48,Red lark,Nama Karoo,Bird,8,0.37,19,28,2,Yes
+49,Chacma baboon,Succulent Karoo,Mammal,45,31.75,145,45,4,Yes
+50,Rock hyrax (dassie),Succulent Karoo,Mammal,12,3.70,56,30,4,Yes
+51,Lesser bushbaby,Succulent Karoo,Mammal,12,0.158,37,19,4,Yes
+52,Monkey beetle,Succulent Karoo,Insect,1,0.036,1.1,5,4,No
+53,Gemsbok,Succulent Karoo,Mammal,20,240,240,60,4,No
+54,Aardvark,Succulent Karoo,Mammal,23,53.30,160,42,4,No
+55,Karoo long-billed lark,Succulent Karoo,Bird,6,0.45,22,40,4,Yes
+56,Cape ground squirrel,Succulent Karoo,Mammal,11,0.60,45,16,4,No
+57,Honey bee,Succulent Karoo,Insect,0.333,0.0001,1.6,30,4,Yes
+58,Rock monitor,Succulent Karoo,Reptile,20,17,132,45,4,No
+59,Cape cobra,Succulent Karoo,Reptile,20,8,170,15,4,No
+60,Springhare,Succulent Karoo,Mammal,8,3,81,30,4,Yes
+61,Knysna turaco,Forest,Bird,30,0.31,46,30,4,Yes
+62,Nyala,Forest,Mammal,19,108,210,57,4,Yes
+63,Knysna dwarf chameleon,Forest,Reptile,5,0.50,18,11,2,No
+64,Wahlberg's epauletted fruit bat,Forest,Mammal,10,0.125,15,40,4,Yes
+65,Eastern rock elephant shrew,Forest,Mammal,5,0.06,26,13,4,No
+66,Pouched mouse,Forest,Mammal,7,0.48,16,13,4,Yes
+67,Bushpig,Forest,Mammal,20,61,155,50,4,No
+68,Large spotted genet,Forest,Mammal,10,1.80,93,48,4,No
+69,African wood owl,Forest,Bird,15,0.335,33,80,4,Yes
+70,Vervet monkey,Forest,Mammal,20,5.51,114,30,4,Yes
+71,Pink-throated twinspot,Forest,Bird,8,0.01,13.5,40,4,No
+72,Emperor swallowtail butterfly,Forest,Insect,0.083,0.02,12,19,1,No
+73,Western leopard toad,Fynbos,Amphibian,13,0.06,14,7,1,Yes
+74,Angulate tortoise,Fynbos,Reptile,32,2.10,30,0.5,3,No
+75,Bat-eared fox,Fynbos,Mammal,13,3.5,80,50,4,Yes
+76,Cape gannet,Fynbos,Bird,17,2.60,94,120,2,No
+77,Arctic tern,Fynbos,Bird,29,0.102,34,40,4,Yes
+78,Cape siskin,Fynbos,Bird,2,0.011,13,40,4,Yes
+79,Common ostrich,Fynbos,Bird,60,150,200,70,4,Yes
+80,Small grey mongoose,Fynbos,Mammal,11,0.90,64,32,4,No
+81,Cape rain frog,Fynbos,Amphibian,15,0.05,6,8,3,Yes
+82,Caracal,Fynbos,Mammal,15,9.50,110,80,4,No
+83,Flap necked chameleon,Fynbos,Reptile,8,0.168,35,0.5,4,Yes
+84,Cape sugarbird,Fynbos,Bird,7,0.037,44,35,4,Yes
+85,African penguin,Coast,Bird,15,3.5,65,20,1,Yes
+86,Sandfly,Coast,Insect,0.083,0.0012,0.3,2.5,4,Yes
+87,Red duiker,Coast,Mammal,9,13,95,55,4,Yes
+88,Elephant seal,Coast,Mammal,22,3518,460,19,4,No
+89,Great white pelican,Coast,Bird,23,11,178,65,4,Yes
+90,Egyptian goose,Coast,Bird,14,2.35,73,50,4,Yes
+91,Kelp gull,Coast,Bird,20,1.30,65,35,4,Yes
+92,Curlew sandpiper,Coast,Bird,19,0.055,20,40,4,Yes
+93,Ghost crab,Coast,Crustacean,3,0.08,5,16,4,No
+94,Samango monkey,Coast,Mammal,30,9.31,138,55,4,No
+95,Cape fur seal,Coast,Mammal,30,187,210,44,4,Yes
+96,Wandering albatross,Coast,Bird,60,10,135,80,2,No
+97,Mantis shrimp,Ocean,Crustacean,20,0.09,38,6,1,No
+98,Orca (killer whale),Ocean,Mammal,50,5400,760,65,3,Yes
+99,Great white shark,Ocean,Fish,40,1100,600,40,2,Yes
+100,Southern right whale,Ocean,Mammal,100,80000,1600,10,4,Yes
+101,Tiger pistol shrimp,Ocean,Crustacean,7,0.05,5,6,4,No
+102,Humpback whale,Ocean,Mammal,60,50000,1800,8,4,Yes
+103,Long beaked common dolphin,Ocean,Mammal,40,235,250,40,4,Yes
+104,Atlantic herring,Ocean,Fish,20,1,39,4,4,Yes
+105,Cusk eel,Ocean,Fish,30,25,200,4,4,No
+106,Oyster toadfish,Ocean,Fish,8,0.60,38,9,4,No
+107,Cape rock lobster,Ocean,Crustacean,50,5,46,18,4,No
+108,Bottlenose dolphin,Ocean,Mammal,35,300,400,35,4,No
