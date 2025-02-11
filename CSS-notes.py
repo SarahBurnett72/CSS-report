@@ -498,7 +498,7 @@ with tab8:
                    help="Documentation for all the elements you can add to Streamlit")
     
 with tab9:
-    st.header("Sarah Burnett")
+    st.subheader("Sarah Burnett")
     st.write("""
              Sarah Burnett is a MSc student in the Biophysics Research Group at the University of Pretoria.\\
              \\
@@ -522,7 +522,7 @@ with tab9:
              processes in LHCs and QDs. Incorporation of plasmonic gold nanoparticles to enhance the fluorescence of LHCs and QDs is intended to 
              achieve multi-picosecond time-resolution and for developing quantum biosensing capabilities.
              """)
-    st.subheader("What is biophysics?")
+    st.header("What is biophysics?")
     col1, col2 = st.columns([4,1], gap='large')
     
     with col1:
