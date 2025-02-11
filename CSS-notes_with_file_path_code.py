@@ -90,7 +90,7 @@ with tab2:
 
     st.write('See summary of dataframe and the data type for each column')
     st.code('print(df.info())')
-    st,code('print(data.dtypes)')
+    st.code('print(data.dtypes)')
 
     st.write('Select one column')
 
