@@ -21,8 +21,8 @@ st.markdown("""
 
 st.write("Website made by Sarah Burnett")
 
-tab1, tab2, tab3, tab4, tab5, tab6, tab7, tab8, tab9= st.tabs(["General", "Pandas", "Seaborn", "Streamlit", "Web scraping", 
-                                                               "Bashcrawl", "Resources", "About the author", "Website code"])
+tab1, tab2, tab3, tab4, tab5, tab6, tab7, tab8, tab9, tab10= st.tabs(["General", "Pandas", "Seaborn", "Streamlit", "Web scraping", 
+                                                               "Bashcrawl", "Resources", "About the author", "Website code", "File path modifier"])
 
 #%%
 #make the pages
