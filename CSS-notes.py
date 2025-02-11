@@ -511,8 +511,8 @@ with tab9:
              context of a complex biological system.
              """)
              
-   st.subheader("Francois Conradie")    
-   st.write("""
+    st.subheader("Francois Conradie")    
+    st.write("""
              Francois Conradie is currently a PhD student in the Biophysics Research Group at the University of Pretoria. His research interests 
              are: The abilities of photosynthetic light-harvesting complexes (LHCs) to respond to environmental stressors, like high light 
              intensities, acidity, or temperature fluctuations, are very promising for advances in energy security, biosensing, and even quantum
