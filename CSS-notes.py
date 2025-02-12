@@ -71,100 +71,100 @@ with tab2:
      in a compact and centralized way. Here is an example of code that changes all the file names in a directory according to the same criterion:
              """)
     code_file_path = """
-    import os
-    import shutil
-    import sys
-    import logging
-
-    # Define the directory containing the messy files
-    source_directory = "./messy_movie_files"
-    new_directory = "./new_movie_files"
-
-    # Ensure the directory exists
-    if not os.path.exists(source_directory):
-        print('Directory not found')
-        os.makedirs(source_directory)
-
-    # Ensure the new directory exists, if not create it
-    if not os.path.exists(new_directory):
-        print('New directory not found')
-        os.makedirs(new_directory)
-
-    # Function to normalize file names
-    def normalize_filename(messy_filename):
-        '''Change file name to replace _ ! & to \t'''
-    
-        skipped_movies = []
-    
-        try:
-            # Remove the file extension
-            name, ext = os.path.splitext(messy_filename)
-            
-            # Replace common separators with spaces
-            for char in ["-", "_", "!", "&", "@", ";", ":", ".", ","]:
-                name = name.replace(char, " ")
-    
-            # Split into parts (words)
-            parts = name.split()
-
-            # Find the year (4 digits)
-            year = None
-            for part in parts:
-                if part.isdigit() and len(part) == 4:
-                    year = part
-                    break
-    
-            # If no year is found, skip the file
-            if not year:
-                print(f"Skipping: {messy_filename} - no year")
-                skipped_movies.append(filename)
-                return None
-    
-            # Get the movie title (everything before the year)
-            title_parts = parts[:parts.index(year)]
-            movie_title = " ".join(title_parts).strip().title()
-    
-            # Get the director (everything after the year)
-            director_parts = parts[parts.index(year) + 1:]
-            movie_director = " ".join(director_parts).strip().title()
-    
-            # Format the new file name
-            new_filename = f"{movie_title} ({year}) {movie_director}{ext}"
-        except Exception as e:
-            logging.error(f"Error processing filename: {e}")
-            skipped_movies.append(filename)
-            return None
-    
-        return new_filename
-
-    # Process files in the source directory
-    for filename in os.listdir(source_directory):
-        old_path = os.path.join(source_directory, filename)
-    
-        # Check if the file is in the old directory
-        if not os.path.isfile(old_path):
-        continue
-    
-        # Calling the function
-        new_name = normalize_filename(filename)
-    
-    
-        # Check old path
-        if not new_name:
-            print(f"Skipping {filename}")
-            continue
-
-        # Get new file name
-        print(f"{new_name} - {new_directory}")
-
-        # Define the new path in the new directory
-        new_path = os.path.join(new_directory,new_name)
-
-    # Copy the file to the new directory with the new name
-        shutil.copy(old_path, new_path)
-        print(f"copied and renamed {filename} -> {new_name}")
-    
-    print("Renaming and moving file names complete")
+             import os
+             import shutil
+             import sys
+             import logging
+         
+             # Define the directory containing the messy files
+             source_directory = "./messy_movie_files"
+             new_directory = "./new_movie_files"
+         
+             # Ensure the directory exists
+             if not os.path.exists(source_directory):
+                 print('Directory not found')
+                 os.makedirs(source_directory)
+         
+             # Ensure the new directory exists, if not create it
+             if not os.path.exists(new_directory):
+                 print('New directory not found')
+                 os.makedirs(new_directory)
+         
+             # Function to normalize file names
+             def normalize_filename(messy_filename):
+                 '''Change file name to replace _ ! & to \t'''
+             
+                 skipped_movies = []
+             
+                 try:
+                     # Remove the file extension
+                     name, ext = os.path.splitext(messy_filename)
+                     
+                     # Replace common separators with spaces
+                     for char in ["-", "_", "!", "&", "@", ";", ":", ".", ","]:
+                         name = name.replace(char, " ")
+             
+                     # Split into parts (words)
+                     parts = name.split()
+         
+                     # Find the year (4 digits)
+                     year = None
+                     for part in parts:
+                         if part.isdigit() and len(part) == 4:
+                             year = part
+                             break
+             
+                     # If no year is found, skip the file
+                     if not year:
+                         print(f"Skipping: {messy_filename} - no year")
+                         skipped_movies.append(filename)
+                         return None
+             
+                     # Get the movie title (everything before the year)
+                     title_parts = parts[:parts.index(year)]
+                     movie_title = " ".join(title_parts).strip().title()
+             
+                     # Get the director (everything after the year)
+                     director_parts = parts[parts.index(year) + 1:]
+                     movie_director = " ".join(director_parts).strip().title()
+             
+                     # Format the new file name
+                     new_filename = f"{movie_title} ({year}) {movie_director}{ext}"
+                 except Exception as e:
+                     logging.error(f"Error processing filename: {e}")
+                     skipped_movies.append(filename)
+                     return None
+             
+                 return new_filename
+         
+             # Process files in the source directory
+             for filename in os.listdir(source_directory):
+                 old_path = os.path.join(source_directory, filename)
+             
+                 # Check if the file is in the old directory
+                 if not os.path.isfile(old_path):
+                 continue
+             
+                 # Calling the function
+                 new_name = normalize_filename(filename)
+             
+             
+                 # Check old path
+                 if not new_name:
+                     print(f"Skipping {filename}")
+                     continue
+         
+                 # Get new file name
+                 print(f"{new_name} - {new_directory}")
+         
+                 # Define the new path in the new directory
+                 new_path = os.path.join(new_directory,new_name)
+         
+             # Copy the file to the new directory with the new name
+                 shutil.copy(old_path, new_path)
+                 print(f"copied and renamed {filename} -> {new_name}")
+             
+             print("Renaming and moving file names complete")
     """
     st.code(code_file_path)
     
