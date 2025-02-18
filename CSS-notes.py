@@ -496,6 +496,9 @@ with tab8:
     
     st.link_button("Streamlit documentation", 'https://docs.streamlit.io/develop/api-reference', type='primary', 
                    help="Documentation for all the elements you can add to Streamlit")
+
+    st.link_button("W3 School Python tutorials", 'https://www.w3schools.com/python/default.asp', type='primary',
+                   help='Text based tutorials to learn Python from the beginning')
     
 with tab9:
     st.subheader("Sarah Burnett")
